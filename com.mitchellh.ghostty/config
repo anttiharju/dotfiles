@@ -1,0 +1,20 @@
+# default shell
+command = /opt/homebrew/bin/tmux
+shell-integration = fish
+
+# tmux
+## new window
+keybind = cmd+t=unbind
+keybind = cmd+t=text:\x02c
+
+## close pane (also window if no panes)
+keybind = cmd+w=unbind
+keybind = cmd+w=text:\x02x
+
+## next window
+keybind = cmd+opt+right=unbind
+keybind = cmd+opt+right=text:\x02n
+
+## previous window
+keybind = cmd+opt+left=unbind
+keybind = cmd+opt+left=text:\x02p
