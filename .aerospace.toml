@@ -7,19 +7,15 @@ alt-shift-a = 'focus --boundaries-action wrap-around-the-workspace left'
 alt-shift-s = 'focus --boundaries-action wrap-around-the-workspace down'
 alt-shift-d = 'focus --boundaries-action wrap-around-the-workspace right'
 
-alt-f = 'fullscreen'
+alt-q = 'move-node-to-workspace prev'
+alt-e = 'move-node-to-workspace next'
+
 alt-w = 'move up'
 alt-a = 'move left'
 alt-s = 'move down'
 alt-d = 'move right'
 
-# Only six workspaces because need alt-shift-7 for \
-alt-shift-1 = 'move-node-to-workspace 1'
-alt-shift-2 = 'move-node-to-workspace 2'
-alt-shift-3 = 'move-node-to-workspace 3'
-alt-shift-4 = 'move-node-to-workspace 4'
-alt-shift-5 = 'move-node-to-workspace 5'
-alt-shift-6 = 'move-node-to-workspace 6'
+alt-f = 'fullscreen'
 
 # cmd because need alt-4 for $
 cmd-alt-1 = 'workspace 1'
@@ -28,3 +24,7 @@ cmd-alt-3 = 'workspace 3'
 cmd-alt-4 = 'workspace 4'
 cmd-alt-5 = 'workspace 5'
 cmd-alt-6 = 'workspace 6'
+cmd-alt-7 = 'workspace 7'
+cmd-alt-8 = 'workspace 8'
+cmd-alt-9 = 'workspace 9'
+cmd-alt-0 = 'workspace 10'
