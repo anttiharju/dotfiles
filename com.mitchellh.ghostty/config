@@ -7,9 +7,9 @@ shell-integration = fish
 keybind = cmd+t=unbind
 keybind = cmd+t=text:\x02c
 
-## close pane (also window if no panes)
+## close window
 keybind = cmd+w=unbind
-keybind = cmd+w=text:\x02x
+keybind = cmd+w=text:\x02&
 
 ## next window
 keybind = cmd+opt+right=unbind
