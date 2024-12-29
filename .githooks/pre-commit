@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+
+# keep forgetting to do this
+# not perfect (will also apply any unstaged changes)
+# but there should not be unstaged changes with my workflow
+aerospace reload-config
