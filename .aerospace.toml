@@ -1,6 +1,8 @@
 enable-normalization-flatten-containers = true
 enable-normalization-opposite-orientation-for-nested-containers = true
 
+start-at-login = true
+
 [mode.main.binding]
 alt-shift-w = 'focus --boundaries-action wrap-around-the-workspace up'
 alt-shift-a = 'focus --boundaries-action wrap-around-the-workspace left'
