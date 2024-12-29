@@ -4,20 +4,17 @@ enable-normalization-opposite-orientation-for-nested-containers = true
 start-at-login = true
 
 [mode.main.binding]
-alt-shift-w = 'focus --boundaries-action wrap-around-the-workspace up'
-alt-shift-a = 'focus --boundaries-action wrap-around-the-workspace left'
-alt-shift-s = 'focus --boundaries-action wrap-around-the-workspace down'
-alt-shift-d = 'focus --boundaries-action wrap-around-the-workspace right'
-
-alt-q = 'move-node-to-workspace prev'
-alt-e = 'move-node-to-workspace next'
+alt-f = 'fullscreen'
 
 alt-w = 'move up'
 alt-a = 'move left'
 alt-s = 'move down'
 alt-d = 'move right'
 
-alt-f = 'fullscreen'
+alt-shift-w = 'focus --boundaries-action wrap-around-the-workspace up'
+alt-shift-a = 'focus --boundaries-action wrap-around-the-workspace left'
+alt-shift-s = 'focus --boundaries-action wrap-around-the-workspace down'
+alt-shift-d = 'focus --boundaries-action wrap-around-the-workspace right'
 
 # cmd because need alt-4 for $
 cmd-alt-1 = 'workspace 1'
@@ -30,3 +27,16 @@ cmd-alt-7 = 'workspace 7'
 cmd-alt-8 = 'workspace 8'
 cmd-alt-9 = 'workspace 9'
 cmd-alt-0 = 'workspace 10'
+
+# Difficult to press but don't need that often
+# alt-shift-7 must remain free to produce \
+cmd-alt-shift-1 = 'move-node-to-workspace 1'
+cmd-alt-shift-2 = 'move-node-to-workspace 2'
+cmd-alt-shift-3 = 'move-node-to-workspace 3'
+cmd-alt-shift-4 = 'move-node-to-workspace 4'
+cmd-alt-shift-5 = 'move-node-to-workspace 5'
+cmd-alt-shift-6 = 'move-node-to-workspace 6'
+cmd-alt-shift-7 = 'move-node-to-workspace 7'
+cmd-alt-shift-8 = 'move-node-to-workspace 8'
+cmd-alt-shift-9 = 'move-node-to-workspace 9'
+cmd-alt-shift-0 = 'move-node-to-workspace 10'
