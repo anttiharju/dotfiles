@@ -5,3 +5,6 @@ set -eu
 # not perfect (will also apply any unstaged changes)
 # but there should not be unstaged changes with my workflow
 aerospace reload-config
+
+# Update configuration files
+make -C "$(git rev-parse --show-toplevel)"
