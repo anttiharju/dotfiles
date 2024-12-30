@@ -40,3 +40,24 @@ cmd-alt-shift-7 = 'move-node-to-workspace 7'
 cmd-alt-shift-8 = 'move-node-to-workspace 8'
 cmd-alt-shift-9 = 'move-node-to-workspace 9'
 cmd-alt-shift-0 = 'move-node-to-workspace 10'
+
+# Automatically assign apps to workspaces
+[[on-window-detected]]
+if.app-id = 'com.apple.Safari'
+run = ['move-node-to-workspace 1']
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.VSCode'
+run = ['move-node-to-workspace 2']
+
+[[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty'
+run = ['move-node-to-workspace 3']
+
+[[on-window-detected]]
+if.app-id = 'dev.kdrag0n.MacVirt' # OrbStack
+run = ['move-node-to-workspace 4']
+
+[[on-window-detected]]
+if.app-id = 'com.spotify.client'
+run = ['move-node-to-workspace 5']
