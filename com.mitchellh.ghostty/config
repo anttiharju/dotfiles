@@ -2,6 +2,11 @@
 command = /opt/homebrew/bin/tmux
 shell-integration = fish
 
+# theme
+theme = dark-modern
+# in case missing:
+# curl -o "/Applications/Ghostty.app/Contents/Resources/ghostty/themes/dark-modern" "https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/a84c2049d6f2ecb6050a8eba7d38977900598e90/ghostty/Dark%20Modern"
+
 # quake mode
 keybind = global:opt+t=toggle_quick_terminal
 quick-terminal-animation-duration = 0
