@@ -2,6 +2,9 @@
 command = /opt/homebrew/bin/tmux
 shell-integration = fish
 
+# better font
+font-thicken = true
+
 # theme
 theme = dark-modern
 # in case missing:
