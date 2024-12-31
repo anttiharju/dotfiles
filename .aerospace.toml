@@ -4,6 +4,9 @@ enable-normalization-opposite-orientation-for-nested-containers = true
 start-at-login = true
 
 [mode.main.binding]
+cmd-h = [] # Disable "hide application"
+cmd-alt-h = [] # Disable "hide others"
+
 alt-f = 'fullscreen'
 
 alt-w = 'move up'
