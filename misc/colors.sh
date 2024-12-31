@@ -5,7 +5,7 @@
 
 terminal_width=$(tput cols)
 terminal_height=$(tput lines)
-block_width=$((terminal_width - 3)) # Leave space for idx
+block_width=$((terminal_width - 3 - 5)) # Leave space for idx and text
 block=$(printf '█%.0s' $(seq 1 $block_width))
 
 # Calculate padding needed (terminal height minus color blocks minus prompt)
@@ -25,5 +25,5 @@ for i in {0..15}; do
   fi
 
   # Show color block in both foreground and background
-  echo -e "$idx \033[38;5;${i}m$block\033[0m"
+  echo -e "$idx \033[38;5;${i}mcode $block\033[0m"
 done
