@@ -45,15 +45,16 @@ cmd-alt-shift-9 = 'move-node-to-workspace 9'
 cmd-alt-shift-0 = 'move-node-to-workspace 10'
 
 # Automatically assign apps to workspaces
+
+# Ghostty in workspace 1 because also needed elsewhere
+
 [[on-window-detected]]
 if.app-id = 'com.apple.Safari'
-run = ['move-node-to-workspace 1']
+run = ['move-node-to-workspace 2']
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
-run = ['move-node-to-workspace 2']
-
-# Ghostty in workspace 3 but need it elsewhere too
+run = ['move-node-to-workspace 3']
 
 [[on-window-detected]]
 if.app-id = 'dev.kdrag0n.MacVirt' # OrbStack
