@@ -2,6 +2,10 @@
 command = /opt/homebrew/bin/tmux
 shell-integration = fish
 
+# quake mode
+keybind = global:opt+t=toggle_quick_terminal
+quick-terminal-animation-duration = 0
+
 # tmux
 ## new window
 keybind = cmd+t=unbind
