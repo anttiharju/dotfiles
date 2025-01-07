@@ -8,9 +8,6 @@ font-family = "Menlo"
 font-thicken = true
 font-size = 17.5
 
-# theme
-theme = dark-vscode-integrated
-
 # quake mode
 keybind = global:opt+t=toggle_quick_terminal
 quick-terminal-animation-duration = 0
