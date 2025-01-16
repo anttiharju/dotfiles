@@ -1,6 +1,10 @@
 # Default flox env collides with `code .` usage, so rely on brew for now
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+set fish_greeting
+fish_vi_key_bindings
+fish_hybrid_key_bindings
+
 if status --is-interactive
   # Custom utils
   set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
