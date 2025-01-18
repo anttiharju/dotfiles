@@ -6,6 +6,8 @@ fish_vi_key_bindings
 fish_hybrid_key_bindings
 
 if status --is-interactive
+  alias kc="kubectl"
+  alias tc="talosctl"
   # Custom utils
   set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
 
