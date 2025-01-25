@@ -2,6 +2,9 @@
 command = /opt/homebrew/bin/tmux
 shell-integration = fish
 
+# theme
+theme = dark+
+
 # better font
 font-family = "" # override the default font
 font-family = "Menlo"
