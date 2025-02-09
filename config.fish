@@ -10,7 +10,7 @@ if status --is-interactive
   alias tc="talosctl"
   alias golangci-lint="/opt/homebrew/bin/vmatch"
   # Custom utils
-  set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
+  set -gx PATH /Users/antti/anttiharju/scripts $PATH
 
   # Activate flox upon VS Code integrated terminal initialisation
   if git rev-parse --git-dir >/dev/null 2>&1
