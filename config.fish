@@ -8,6 +8,7 @@ fish_hybrid_key_bindings
 if status --is-interactive
   alias kc="kubectl"
   alias tc="talosctl"
+  alias golangci-lint="/opt/homebrew/bin/vmatch"
   # Custom utils
   set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
 
