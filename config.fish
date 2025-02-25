@@ -12,6 +12,11 @@ if status --is-interactive
   # Custom utils
   set -gx PATH /Users/antti/anttiharju/scripts $PATH
 
+  set machineconfig "$(dirname "$0")/config.machine.sh"
+  if test -f "$machineconfig"
+    source "$machineconfig"
+  end
+
   # Activate flox upon VS Code integrated terminal initialisation
   if git rev-parse --git-dir >/dev/null 2>&1
     # In git repo
