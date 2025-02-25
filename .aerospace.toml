@@ -46,7 +46,13 @@ cmd-alt-shift-0 = 'move-node-to-workspace 10'
 
 # Automatically assign apps to workspaces
 
-# Ghostty in workspace 1 because also needed elsewhere
+[[on-window-detected]]
+if.app-id = 'com.apple.finder'
+run = ['move-node-to-workspace 1']
+
+[[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty'
+run = ['move-node-to-workspace 1']
 
 [[on-window-detected]]
 if.app-id = 'com.apple.Safari'
@@ -57,9 +63,25 @@ if.app-id = 'com.microsoft.VSCode'
 run = ['move-node-to-workspace 3']
 
 [[on-window-detected]]
-if.app-id = 'dev.kdrag0n.MacVirt' # OrbStack
+if.app-id = 'com.tinyspeck.slackmacgap'
 run = ['move-node-to-workspace 4']
 
 [[on-window-detected]]
-if.app-id = 'com.spotify.client'
+if.app-id = 'com.apple.TextEdit'
+run = ['move-node-to-workspace 4']
+
+[[on-window-detected]]
+if.app-id = 'com.1password.1password'
 run = ['move-node-to-workspace 5']
+
+[[on-window-detected]]
+if.app-id = 'com.markmcguill.strongbox.pro'
+run = ['move-node-to-workspace 5']
+
+[[on-window-detected]]
+if.app-id = 'com.spotify.client'
+run = ['move-node-to-workspace 6']
+
+[[on-window-detected]]
+if.app-id = 'dev.kdrag0n.MacVirt' # OrbStack
+run = ['move-node-to-workspace 6']
