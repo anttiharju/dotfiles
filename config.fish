@@ -5,6 +5,10 @@ set fish_greeting
 fish_vi_key_bindings
 fish_hybrid_key_bindings
 
+function code --description "Redirect 'code' command to use 'zed' instead"
+  zed $argv
+end
+
 if status --is-interactive
   alias kc="kubectl"
   alias tc="talosctl"
