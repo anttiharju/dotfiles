@@ -4,7 +4,7 @@ enable-normalization-opposite-orientation-for-nested-containers = true
 start-at-login = true
 
 [mode.main.binding]
-cmd-h = [] # Disable "hide application"
+cmd-h = []     # Disable "hide application"
 cmd-alt-h = [] # Disable "hide others"
 
 alt-f = 'fullscreen'
@@ -51,19 +51,19 @@ if.app-id = 'com.apple.finder'
 run = ['move-node-to-workspace 1']
 
 [[on-window-detected]]
-if.app-id = 'com.mitchellh.ghostty'
+if.app-id = 'com.apple.Safari'
 run = ['move-node-to-workspace 1']
 
 [[on-window-detected]]
-if.app-id = 'com.apple.Safari'
+if.app-id = 'com.mitchellh.ghostty'
 run = ['move-node-to-workspace 2']
 
 [[on-window-detected]]
-if.app-id = 'com.microsoft.VSCode'
+if.app-id = 'dev.zed.Zed'
 run = ['move-node-to-workspace 3']
 
 [[on-window-detected]]
-if.app-id = 'dev.zed.Zed'
+if.app-id = 'com.microsoft.VSCode'
 run = ['move-node-to-workspace 3']
 
 [[on-window-detected]]
@@ -87,5 +87,5 @@ if.app-id = 'com.spotify.client'
 run = ['move-node-to-workspace 6']
 
 [[on-window-detected]]
-if.app-id = 'dev.kdrag0n.MacVirt' # OrbStack
+if.app-id = 'dev.kdrag0n.MacVirt'  # OrbStack
 run = ['move-node-to-workspace 6']
