@@ -12,7 +12,7 @@ if status --is-interactive
   # Custom utils
   set -gx PATH /Users/antti/anttiharju/scripts $PATH
 
-  set machineconfig "$(dirname "$0")/config.machine.sh"
+  set machineconfig "$(dirname "$0")/config.machine.fish"
   if test -f "$machineconfig"
     source "$machineconfig"
   end
