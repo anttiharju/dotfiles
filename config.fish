@@ -10,7 +10,7 @@ if status --is-interactive
   alias tc="talosctl"
   alias golangci-lint="/opt/homebrew/bin/vmatch"
   # Custom utils
-  fish_add_path /Users/antti/anttiharju/scripts
+  set -gx PATH /Users/antti/anttiharju/scripts $PATH # not using fish_add_path because this needs to override other things (some brew bin overlap with gpr)
 
   set -lx machineconfig "$HOME/anttiharju/dotfiles/config.machine.fish"
   if test -f "$machineconfig"
