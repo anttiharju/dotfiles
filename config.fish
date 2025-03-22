@@ -9,6 +9,7 @@ if status --is-interactive
   alias kc="kubectl"
   alias tc="talosctl"
   alias golangci-lint="/opt/homebrew/bin/vmatch"
+  eval $(ssh-agent -c)
   # Custom utils
   set -gx PATH /Users/antti/anttiharju/scripts $PATH # not using fish_add_path because this needs to override other things (some brew bin overlap with gpr)
 
