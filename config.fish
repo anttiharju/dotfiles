@@ -8,7 +8,9 @@ fish_hybrid_key_bindings
 if status --is-interactive
   alias kc="kubectl"
   alias tc="talosctl"
-  eval $(ssh-agent -c)
+  if test -z "$SSH_AUTH_SOCK"
+    eval $(ssh-agent -c)
+  end
   # Custom utils
   set -gx PATH /Users/antti/anttiharju/scripts $PATH # not using fish_add_path because this needs to override other things (some brew bin overlap with gpr)
 
