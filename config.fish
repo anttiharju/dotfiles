@@ -12,5 +12,5 @@ end
 if status --is-interactive
   alias kc="kubectl"
   alias tc="talosctl"
-  set -gx PATH /Users/antti/anttiharju/scripts $PATH
+  set -gx PATH /Users/antti/anttiharju/scripts/scripts $PATH
 end
