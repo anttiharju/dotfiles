@@ -6,3 +6,4 @@ setup:
 	ln -f ./.tmux.conf ~/.tmux.conf
 	ln -f ./.aerospace.toml ~/.aerospace.toml
 	ln -f ./config.fish ~/.config/fish/config.fish
+	ln -f ./com.microsoft.VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json

@@ -1,0 +1,10 @@
+[
+  {
+    "key": "cmd+shift+j",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "cmd+[Semicolon]", // cmd+ö
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
+]
