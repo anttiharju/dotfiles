@@ -13,4 +13,12 @@ if status --is-interactive
   alias kc="kubectl"
   alias tc="talosctl"
   set -gx PATH /Users/antti/anttiharju/utils/scripts $PATH
+
+  # lefthook auto-install for personal repositories
+  set current_dir (pwd)
+  if string match -q "$HOME/anttiharju/*" $current_dir
+    if test -f "lefthook.yml"
+      lefthook install
+    end
+  end
 end
