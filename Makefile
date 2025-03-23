@@ -8,4 +8,5 @@ setup:
 	ln -f ./config.fish ~/.config/fish/config.fish
 	ln -f ./com.microsoft.VSCode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 	ln -f ./.gitconfig ~/.gitconfig
-	ln -f ./.global.gitignore ~/.gitignore
+	mkdir -p ~/.config/git
+	ln -f ./.global.gitignore ~/.config/git/ignore
