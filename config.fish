@@ -4,10 +4,6 @@ fish_hybrid_key_bindings
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-if test -z "$SSH_AUTH_SOCK"
-  eval $(ssh-agent -c)
-end
-
 set -lx machineconfig "$HOME/anttiharju/dotfiles/config.machine.fish"
 if test -f "$machineconfig"
   source "$machineconfig"
