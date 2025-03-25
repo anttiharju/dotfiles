@@ -1,7 +1,5 @@
-.PHONY: setup
-
+# Todo: consider soft symlinks
 setup:
-	git config --local core.hooksPath .githooks/
 	ln -f ./com.mitchellh.ghostty/config ~/Library/Application\ Support/com.mitchellh.ghostty/config
 	ln -f ./.tmux.conf ~/.tmux.conf
 	ln -f ./.aerospace.toml ~/.aerospace.toml
@@ -11,3 +9,4 @@ setup:
 	mkdir -p ~/.config/git
 	ln -f ./.global.gitignore ~/.config/git/ignore
 	@[ -f "./machine/config.sh" ] && ./machine/config.sh || true
+.PHONY: setup
