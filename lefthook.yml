@@ -1,0 +1,11 @@
+output:
+  - success
+  - failure
+
+pre-commit:
+  jobs:
+    - name: Move configuration files
+      run: make
+
+    - name: Reload AeroSpace
+      run: aerospace reload-config
