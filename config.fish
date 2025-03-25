@@ -12,7 +12,7 @@ end
 if status --is-interactive
   alias kc="kubectl"
   alias tc="talosctl"
-  set -gx PATH /Users/antti/anttiharju/utils/scripts $PATH
+  set -gx PATH /Users/antti/anttiharju/utils/scripts/bin $PATH
 
   # lefthook auto-install for personal repositories
   set current_dir (pwd)
