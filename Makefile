@@ -10,4 +10,4 @@ setup:
 	ln -f ./.gitconfig ~/.gitconfig
 	mkdir -p ~/.config/git
 	ln -f ./.global.gitignore ~/.config/git/ignore
-	./machine/config.sh
+	@[ -f "./machine/config.sh" ] && ./machine/config.sh || true
