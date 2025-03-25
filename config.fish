@@ -4,7 +4,7 @@ fish_hybrid_key_bindings
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-set -lx machineconfig "$HOME/anttiharju/dotfiles/config.machine.fish"
+set -lx machineconfig "$HOME/anttiharju/dotfiles/machine/config.fish"
 if test -f "$machineconfig"
   source "$machineconfig"
 end
