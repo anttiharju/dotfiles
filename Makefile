@@ -10,3 +10,7 @@ setup:
 	ln -f ./.global.gitignore ~/.config/git/ignore
 	@[ -f "./machine/config.sh" ] && ./machine/config.sh || true
 .PHONY: setup
+
+completions:
+	./scripts/completions.sh
+.PHONY: completions
