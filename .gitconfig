@@ -12,3 +12,11 @@
     allowedSignersFile = /Users/antti/.ssh/keys/sk-github-sign.pub
 [init]
     defaultBranch = main
+# disable per repo with
+# git config branch.master.pushRemote origin
+[branch "master"]
+        pushRemote = no_push
+# disable per repo with
+# git config branch.main.pushRemote origin
+[branch "main"]
+        pushRemote = no_push
