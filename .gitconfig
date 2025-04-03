@@ -15,8 +15,8 @@
 [branch "master"]
         pushRemote = no_push
         # disable per repo with
-        # git config branch.master.pushRemote origin
+        # git config --local branch.master.pushRemote origin
 [branch "main"]
         pushRemote = no_push
         # disable per repo with
-        # git config branch.main.pushRemote origin
+        # git config --local branch.main.pushRemote origin
