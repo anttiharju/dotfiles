@@ -10,9 +10,11 @@ if test -f "$machineconfig"
 end
 
 if status --is-interactive
-  alias kc="kubectl"
-  alias tc="talosctl"
+  alias k="kubectl"
+
   set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
+  # anttiharju/utils/scripts/og.sh
+  set -gx OG_INITIAL_DIR (pwd)
 
   # lefthook auto-install for personal repositories
   set current_dir (pwd)
