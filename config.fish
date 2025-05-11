@@ -13,8 +13,11 @@ if status --is-interactive
   alias k="kubectl"
 
   set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
-  # anttiharju/utils/scripts/og.sh
+
   set -gx OG_INITIAL_DIR (pwd)
+  function og
+    cd $OG_INITIAL_DIR
+  end
 
   # lefthook auto-install for personal repositories
   set current_dir (pwd)
