@@ -1,6 +1,6 @@
 [user]
     name = Antti Harju
-    email = git@anttiharju.dev
+    email = antti@harju.io
     signingkey = /Users/antti/.ssh/keys/github-sign
 [push]
     autoSetupRemote = true
