@@ -1,7 +1,7 @@
 [user]
     name = Antti Harju
     email = git@anttiharju.dev
-    signingkey = /Users/antti/.ssh/keys/sk-github-sign
+    signingkey = /Users/antti/.ssh/keys/github-sign
 [push]
     autoSetupRemote = true
 [gpg]
@@ -9,7 +9,7 @@
 [commit]
     gpgsign = true
 [gpg "ssh"]
-    allowedSignersFile = /Users/antti/.ssh/keys/sk-github-sign.pub
+    allowedSignersFile = /Users/antti/.ssh/keys/github-sign.pub
 [init]
     defaultBranch = main
 [branch "master"]
