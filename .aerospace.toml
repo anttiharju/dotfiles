@@ -71,10 +71,6 @@ if.app-id = 'com.apple.TextEdit'
 run = ['move-node-to-workspace 4']
 
 [[on-window-detected]]
-if.app-id = 'com.1password.1password'
-run = ['move-node-to-workspace 5']
-
-[[on-window-detected]]
 if.app-id = 'com.markmcguill.strongbox.pro'
 run = ['move-node-to-workspace 5']
 
