@@ -10,7 +10,10 @@ if test -f "$machineconfig"
 end
 
 if status --is-interactive
-  ssh-add --apple-load-keychain 2> /dev/null
+  if not ssh-add -l >/dev/null 2>&1
+    # this is slow, hence the if condition
+    ssh-add --apple-load-keychain 2> /dev/null
+  end
   alias k="kubectl"
 
   set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
