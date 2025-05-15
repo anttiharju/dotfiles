@@ -15,7 +15,6 @@ if status --is-interactive
     ssh-add --apple-load-keychain 2> /dev/null
   end
   alias k="kubectl"
-  alias kustomize="kubectl kustomize"
 
   set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
 
