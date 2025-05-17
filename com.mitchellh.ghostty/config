@@ -41,3 +41,24 @@ keybind = cmd+shift+n=text:\x02:
 
 ## no need to confirm, tmux is there
 confirm-close-surface = false
+
+## pane navigation
+### up
+keybind = cmd+up=unbind
+keybind = cmd+up=text:\x02\x1b[A
+
+### down
+keybind = cmd+down=unbind
+keybind = cmd+down=text:\x02\x1b[B
+
+### right
+keybind = cmd+right=unbind
+keybind = cmd+right=text:\x02\x1b[C
+
+### left
+keybind = cmd+left=unbind
+keybind = cmd+left=text:\x02\x1b[D
+
+## close pane
+keybind = cmd+w=unbind
+keybind = cmd+w=text:\x02x
