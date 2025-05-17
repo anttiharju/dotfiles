@@ -62,3 +62,20 @@ keybind = cmd+left=text:\x02\x1b[D
 ## close pane
 keybind = cmd+w=unbind
 keybind = cmd+w=text:\x02x
+
+## split to right
+keybind = cmd+shift+right=unbind
+keybind = cmd+shift+right=text:\x02%
+
+## split to below
+keybind = cmd+shift+down=unbind
+keybind = cmd+shift+down=text:\x02\"
+#" this is here just to fix the broken syntax highlighting
+
+## split to left (split to right and swap)
+keybind = cmd+shift+left=unbind
+keybind = cmd+shift+left=text:\x02%\x02{
+
+## split to above (split to below and swap)
+keybind = cmd+shift+up=unbind
+keybind = cmd+shift+up=text:\x02\"\x02{
