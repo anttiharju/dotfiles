@@ -15,6 +15,9 @@ font-size = 17.5
 keybind = global:opt+t=toggle_quick_terminal
 quick-terminal-animation-duration = 0
 
+## no need to confirm, tmux is there
+confirm-close-surface = false
+
 # tmux
 ## new window
 keybind = cmd+t=unbind
@@ -38,9 +41,6 @@ keybind = cmd+s=text:\x02s
 ## create a new session
 keybind = cmd+n=unbind
 keybind = cmd+n=text:\x02:
-
-## no need to confirm, tmux is there
-confirm-close-surface = false
 
 ## pane navigation
 ### up
