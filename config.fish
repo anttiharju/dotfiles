@@ -27,7 +27,7 @@ if status --is-interactive
   set current_dir (pwd)
   if string match -q "$HOME/anttiharju/*" $current_dir
     if test -f "lefthook.yml"
-      lefthook install
+      lefthook install > /dev/null 2>&1
     end
   end
 end
