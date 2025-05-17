@@ -31,3 +31,6 @@ keybind = cmd+opt+right=text:\x02n
 ## previous window
 keybind = cmd+opt+left=unbind
 keybind = cmd+opt+left=text:\x02p
+
+## switch session
+keybind = cmd+s=text:\x02s
