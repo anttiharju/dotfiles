@@ -17,6 +17,7 @@ if status --is-interactive
   alias k="kubectl"
 
   set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
+  set -gx PATH /Users/antti/.vmatch/bin $PATH
 
   set -gx OG_INITIAL_DIR (pwd)
   function og
