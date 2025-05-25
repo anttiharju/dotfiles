@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # sha that fish-shell repo is locked to
-sha=446f1344fcc94cb0f4c6153d2468a79639c15530
+sha=80394ea4e38138e0ce0bf23b016dc931e22ff788
 
 # setup
 rm -rf fish
