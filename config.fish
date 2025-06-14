@@ -14,7 +14,8 @@ if status --is-interactive
     # this is slow, hence the if condition
     ssh-add --apple-load-keychain 2> /dev/null
   end
-  alias k="kubectl"
+  abbr -a k "kubectl"
+  abbr -a sshr 'ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no"'
 
   set -gx PATH /Users/antti/anttiharju/utils/bin $PATH
   set -gx PATH /Users/antti/.vmatch/bin $PATH
