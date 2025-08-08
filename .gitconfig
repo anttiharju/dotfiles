@@ -1,5 +1,5 @@
 [user]
-    name = Antti Harju
+    name = anttiharju
     email = antti@harju.io
     signingkey = /Users/antti/.ssh/keys/github-sign
 [push]
